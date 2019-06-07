@@ -19,3 +19,11 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./deployment.yaml
+notification:
+  recipients:
+  - recipient: '#rancher-alert'
+    notifier: local:n-l9k9r
+  condition:
+  - Success
+  - Changed
+  - Failed
