@@ -22,7 +22,7 @@ stages:
 notification:
   recipients:
   - recipient: '#rancher-alert'
-    notifier: c-qvrn9:n-q5t22
+    notifier: c-5dm4x:n-ssvrr
   condition:
   - Success
   - Changed
